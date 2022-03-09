@@ -6,8 +6,10 @@ $ npm init -y
 
 # Create build and src folder
 - update tsconfig.json file with following entry
-    "outDir": "./build"
+   `
+   "outDir": "./build"
     "rootDir": "./src"
+    `
 
 # Create index.js into src folder
 Write console.log("Message")
