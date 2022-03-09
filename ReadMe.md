@@ -1,7 +1,7 @@
 # Create typescript config file (tsconfig.json)
 $ tsc --init
 
-$ Create node project
+# Create node project
 $ npm init -y
 
 # Create build and src folder
