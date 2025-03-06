@@ -1,19 +1,15 @@
 {
-  "name": "week09_node_typescript",
+  "name": "week09_ts_thu",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start:build": "tsc -w",
-    "start:run": "nodemon build/index.js",
-    "start": "concurrently npm:start:*"
+    "build": "tsc -w",
+    "prestart": "npm run build",
+    "start": "node ./build/index.js"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "concurrently": "^7.0.0",
-    "nodemon": "^2.0.15"
-  }
+  "license": "ISC"
 }
